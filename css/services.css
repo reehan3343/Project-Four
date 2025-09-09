@@ -1,0 +1,108 @@
+/* Header Main CSS Start */
+header {
+    background-color: #e9eef2;
+    padding: 100px 0;
+}
+header h1 {
+    font-size: 44px;
+    color: rgb(13, 24, 37);
+}
+header p {
+    max-width: 450px;
+}
+header h6 .text_dark {
+    color: rgb(13, 24, 37) !important;
+}
+@media screen and (max-width: 576px) {
+    header h1 {
+        font-size: 32px;
+    }
+}
+/* Header Main CSS End */
+
+
+/* Header Bottom CSS Start */
+.header_btm .button {
+    border-bottom: 2px solid #8c2e2e00;
+    transition: 0.4s;
+}
+.header_btm .button a {
+    color: rgb(13, 24, 37);
+    font-size: 13px;
+    transition: 0.4s;
+}
+.header_btm .button:hover {
+    border-bottom: 2px solid rgb(0, 153, 255);
+    color: rgb(0, 153, 255);
+}
+.header_btm .button:hover a {
+    color: rgb(0, 153, 255);
+}
+/* Header Bottom CSS End */
+
+
+/* Services CSS Start */
+.services {
+    padding: 110px 0;
+}
+.services .items .item h2 {
+    font-size: 40px;
+}
+.services .items .item p {
+    font-size: 17px;
+}
+.services .items .item .icon {
+    color: rgb(0, 153, 255);
+    transition: 0.4s;
+}
+.services .items .item:hover .icon, .services .items .item h4 {
+    color: rgb(17, 20, 38);
+}
+@media screen and (max-width: 576px) {
+    .services {
+        padding: 60px 0;
+    }
+    .services .items .item h2 {
+        font-size: 26px;
+    }
+    .services .items .item p {
+        font-size: 16px;
+    }
+}
+/* Services CSS End */
+
+
+/* Why Choose Us CSS Start */
+.wcu {
+    background-color: #e9eef2;
+    padding: 80px 0;
+}
+.wcu .headline h6 {
+    color: #1a86eb;
+    font-size: 14px;
+}
+.wcu .headline h1 {
+    font-size: 36px;
+    color: rgb(17, 20, 38);
+}
+.wcu .headline p {
+    font-size: 18px;
+}
+.wcu .item h4 {
+    color: rgb(17, 20, 38);
+}
+.wcu .item .icon {
+    color: rgb(0, 153, 255);
+}
+@media screen and (max-width: 576px) {
+    .wcu {
+        padding: 50px 0;
+    }
+    .wcu .headline h1 {
+        font-size: 26px;
+    }
+    .wcu .headline p {
+        font-size: 16px;
+    }
+}
+/* Why Choose Us CSS End */

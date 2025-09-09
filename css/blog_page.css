@@ -1,0 +1,143 @@
+/* Comment CSS Start */
+.comment {
+    padding: 80px 0;
+}
+.comment .wrapper h6 {
+    color: #1c8cf5;
+    font-size: 13px;
+}
+.comment .wrapper h1 {
+    font-size: 44px;
+    color: rgb(13, 24, 37);
+}
+.comment .wrapper .post p, .comment .wrapper .post a {
+    color: rgb(13, 24, 37);
+    font-size: 12px;
+    padding: 0 6px;
+    margin: 0 !important;
+    transition: 0.4s;
+}
+.comment .wrapper .post a:hover {
+    background-color: rgb(226, 244, 255);
+    color: rgb(0, 153, 255);
+}
+.comment .wrapper .paragraphs p a {
+    color: rgb(0, 153, 255);
+    transition: 0.4s;
+    padding: 4px 6px;
+}
+.comment .wrapper .paragraphs p a:hover {
+    background-color: rgb(226, 244, 255);
+}
+.comment .wrapper h2 {
+    font-size: 24px;
+    color: rgb(13, 24, 37);
+}
+.comment .sidebar h2 {
+    font-size: 22px;
+    color: rgb(13, 24, 37);
+    margin-bottom: 16px !important;
+}
+.comment .sidebar .categories {
+    list-style: none;
+}
+.comment .sidebar .categories li a {
+    color: rgb(13, 24, 37);
+    transition: 0.4s;
+}
+.comment .sidebar .categories li a:hover {
+    background-color: rgb(226, 244, 255);
+    color: rgb(0, 153, 255);
+}
+.comment .posts .post .image {
+    max-width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+.comment .posts .post .image img {
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+}
+.comment .posts .post:hover .image img {
+    transform: scale(1.05);
+}
+.comment .posts .post h4 {
+    font-size: 14px;
+    color: rgb(13, 24, 37);
+    max-width: 160px;
+    transition: 0.4s;
+}
+.comment .posts .post:hover h4 {
+    color: rgb(0, 153, 255);
+}
+.comment .buttons a {
+    font-size: 12px;
+    transition: 0.4s;
+}
+.comment .buttons a:hover {
+    background-color: #1c8cf5;
+    color: white !important;
+}
+.comment .author .texts a {
+    font-size: 18px;
+    color: rgb(13, 24, 37);
+    transition: 0.4s;
+}
+.comment .author .texts a:hover {
+    color: rgb(0, 153, 255);
+}
+.comment .comments .item h4 {
+    font-size: 18px;
+    color: rgb(13, 24, 37);
+}
+.comment .comments .item .wrapper a {
+    font-size: 12px;
+    color: rgb(13, 24, 37);
+    transition: 0.4s;
+}
+.comment .comments .item .wrapper a:hover {
+    color: rgb(0, 153, 255);
+}
+.comment .comments .item .wrapper .button {
+    transition: 0.4s;
+}
+.comment .comments .item:hover .wrapper .button {
+    color: white;
+    background-color: rgb(0, 153, 255);
+}
+.comment form .input_group textarea:focus, .comment form .input_group input:focus {
+    box-shadow: none;
+    border: 1px solid rgb(0, 153, 255);
+}
+.comment form .button a {
+    background-color: rgb(0, 153, 255);
+    transition: 0.4s;
+}
+.comment form .button a:hover {
+    background-color: rgb(13, 24, 37);
+}
+@media screen and (max-width: 576px) {
+    .comment {
+        padding: 80px 0 !important;
+    }
+    .comment .wrapper h6, .comment .wrapper .post p, .comment .wrapper .post a {
+        font-size: 11px;
+    }
+    .comment .wrapper h1 {
+        font-size: 22px;
+    }
+    .comment .wrapper .post {
+        margin-bottom: 20px !important;
+    }
+    .comment .wrapper .paragraphs p, .comment .wrapper .paragraphs ol li, .comment .wrapper .author .texts p, .comment .wrapper .comments .item p {
+        font-size: 12px;
+    }
+    .comment .wrapper h2 {
+        font-size: 20px;
+    }
+    .comment .wrapper .author .texts a {
+        font-size: 14px;
+    }
+}
+/* Comment CSS End */

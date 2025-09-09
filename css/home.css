@@ -1,0 +1,406 @@
+/* Header Main CSS Start */
+header {
+    background: url(/images/slider_images/worktop-plumbing-slide-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+header .wrapper {
+    padding: 120px 10px 200px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to right, #1f344ec0, #00000000);
+}
+header .wrapper h6 {
+    font-size: 14px;
+}
+header .wrapper h1 {
+    font-size: 56px;
+}
+header .wrapper p {
+    font-size: 18px;
+    max-width: 400px;
+}
+header .wrapper .button a {
+    background-color: #1a86eb;
+    max-width: 170px;
+    transition: 0.4s;
+}
+header .wrapper .button a:hover {
+    background-color: #fff;
+}
+header .wrapper .button a:hover p, header .wrapper .button a:hover .icon {
+    color: rgb(17, 20, 38) !important;
+}
+header .wrapper .button a:hover {
+    background-color: white;
+}
+header .wrapper .button p, header .wrapper .button .icon {
+    font-size: 16px;
+    transition: 0.4s;
+}
+@media screen and (max-width: 576px) {
+    header .wrapper h1 {
+        font-size: 40px;  
+    }
+}
+/* Header Main CSS End */
+
+
+/* Header Bottom CSS Start */
+.header_btm {
+    background-color: #e9eef2;
+}
+.header_btm .items {
+    box-shadow: 0 0 30px #22222223;
+    transform: translateY(-90px);
+}
+.header_btm .items .icon {
+    color: #1a86eb;
+}
+.header_btm .items h4 {
+    font-size: 20px;
+    color: rgb(17, 20, 38);
+}
+/* Header Bottom CSS End */
+
+
+/* Who We Are CSS Start */
+.wwa {
+    background-color: #e9eef2;
+    padding: 60px 0;
+}
+.wwa .image {
+    background-color: #6d7888;
+}
+.wwa .image img {
+    transform: translate(50px, -50px);
+    width: 100%;
+}
+.wwa .texts h6 {
+    color: #1a86eb;
+    font-size: 14px;
+}
+.wwa .texts h1 {
+    color: rgb(17, 20, 38);
+}
+.wwa .texts p {
+    font-size: 18px;
+}
+.wwa .benefits .items .icon {
+    color: #1a86eb;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+}
+@media screen and (max-width: 992px) {
+    .wwa {
+        padding: 30px 0;   
+    }
+    .wwa .image {
+        background: none;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .wwa .image img {
+        transform: translate(0);   
+    }
+}
+@media screen and (max-width: 576px) {
+    .wwa {
+        background-color: #e9eef2;
+        padding: 0 0 30px;
+    }
+}
+/* Who We Are CSS End */
+
+
+/* Services CSS Start */
+.services {
+    padding: 80px 0;
+}
+.services .headline h6 {
+    color: #1a86eb;
+    font-size: 14px;
+}
+.services .headline h1 {
+    font-size: 36px;
+    color: rgb(17, 20, 38);
+}
+.services .headline p {
+    font-size: 17px;
+}
+.services .headline .button a {
+    background-color: #1a86eb;
+    transition: 0.4s;
+}
+.services .headline .button a:hover {
+    background-color: rgb(17, 20, 38);
+}
+.services .items .item {
+    transition: 0.3s;
+}
+.services .items .item:hover {
+    transform: translateY(-8px);
+}
+.services .items .item .icon {
+    color: #1a86eb;
+    transition: 0.3s;
+}
+.services .items .item:hover .icon {
+    color: rgb(17, 20, 38);
+}
+.services .items .item h4 {
+    color: rgb(17, 20, 38);
+}
+.services .items .item p {
+    font-size: 17px;
+}
+/* Services CSS End */
+
+
+/* What To Expect CSS Start */
+.wte {
+    background: url(/images/slider_images/worktop-plumbing-slide-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.wte .wrapper {
+    padding: 90px 0;
+    background-color: #0c2a46a2;
+}
+.wte .wrapper .headline h6 {
+    font-size: 14px;
+}
+.wte .wrapper .headline h1 {
+    font-size: 40px;
+}
+.wte .wrapper .headline p {
+    font-size: 17px;
+}
+.wte .wrapper .headline .button a {
+    background-color: #1a86eb;
+    transition: 0.4s;
+}
+.wte .wrapper .headline .button a:hover {
+    background-color: #fff;
+    color: rgb(17, 20, 38) !important;
+}
+.wte .wrapper .items {
+    background-color: #ffffff17;
+}
+.wte .wrapper .items .border_right {
+    border-right: 1px solid #ffffff17;
+}
+.wte .wrapper .items .item p {
+    background-color: #1a86eb;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+}
+@media screen and (max-width: 992px) {
+    .wte .wrapper .items .border_right {
+        border-right: none;
+        border-bottom: 1px solid #ffffff17;
+    }
+}
+/* What To Expect CSS End */
+
+
+/* Our Advantages CSS Start */
+.advantages {
+    background-color: #e9eef2;
+    padding: 120px 0;
+}
+.advantages .image {
+    background-color: #6d7888;
+}
+.advantages .image img {
+    transform: translate(-40px, -40px);
+    width: 100%;
+}
+.advantages .texts h6 {
+    color: #1a86eb;
+    font-size: 14px;
+}
+.advantages .texts h1 {
+    color: rgb(17, 20, 38);
+}
+.advantages .texts p {
+    font-size: 18px;
+}
+.advantages .benefits .items .icon {
+    color: #1a86eb;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+}
+.advantages .button a {
+    background-color: #1a86eb;
+    transition: 0.4s;
+}
+.advantages .button a:hover {
+    background-color: rgb(17, 20, 38);
+}
+@media screen and (max-width: 992px) {
+    .advantages {
+        padding: 90px 0;
+    }
+    .advantages .image {
+        background: none;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .advantages .image img {
+        transform: translate(0);
+    }
+}
+@media screen and (max-width: 576px) {
+    .advantages {
+        background-color: #e9eef2;
+        padding: 90px 0 30px;
+    }
+}
+/* Our Advantages CSS End */
+
+
+/* Testimonial CSS Start */
+.testimonial {
+    padding: 80px 0;
+}
+.testimonial .headline h6 {
+    color: #1a86eb;
+    font-size: 14px;
+}
+.testimonial .headline h1 {
+    font-size: 36px;
+    color: rgb(17, 20, 38);
+}
+.testimonial .headline p {
+    font-size: 18px;
+}
+.testimonial .headline .button a {
+    background-color: #1a86eb;
+    transition: 0.4s;
+}
+.testimonial .headline .button a:hover {
+    background-color: rgb(17, 20, 38);
+}
+.testimonial .items .item .user .texts h6 {
+    color: rgb(17, 20, 38);
+}
+.testimonial .items .item .user .texts p {
+    font-size: 18px;
+}
+.testimonial .items .item .rating li {
+    list-style: none;
+    color: #1a86eb;
+}
+/* Testimonial CSS End */
+
+
+/* How-To Videos CSS Start */
+.htv {
+    background-color: #e9eef2;
+    padding: 90px 0;
+}
+.htv .headline h6 {
+    color: #1a86eb;
+    font-size: 14px;
+}
+.htv .headline h1 {
+    font-size: 36px;
+    color: rgb(17, 20, 38);
+}
+.htv .headline p {
+    font-size: 17px;
+}
+.htv .headline .button a {
+    background-color: #1a86eb;
+    transition: 0.4s;
+}
+.htv .headline .button a:hover {
+    background-color: rgb(17, 20, 38);
+}
+.htv .videos .video {
+    position: relative;
+}
+.htv .videos .video .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0e223600;
+    transition: 0.4s;
+}
+.htv .videos .video .icon a {
+    width: 80px;
+    height: 80px;
+    color: rgb(17, 20, 38);
+    transition: 0.4s;
+}
+.htv .videos .video .icon:hover {
+    background-color: #0e2236ab;
+}
+.htv .videos .video .icon:hover a {
+    background-color: #00000000 !important;
+    color: white;
+    border: 3px solid #fff;
+    animation-name: htv;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+}
+@keyframes htv {
+    0% {box-shadow: 0 0 0 2px #ffffffb0;}
+    100% {box-shadow: 0 0 0 20px #ffffff00;}
+}
+/* How-To Videos CSS End */
+
+
+/* Contact CSS Start */
+.contact {
+    background: url(/images/slider_images/worktop-plumbing-slide-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.contact .wrapper {
+    padding: 110px 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1f344ea7;
+}
+.contact .wrapper .texts p {
+    font-size: 17px;
+    max-width: 380px;
+}
+.contact .wrapper .button a {
+    background-color: #1a86eb;
+    transition: 0.4s;
+}
+.contact .wrapper .button a:hover {
+    background-color: white;
+    color: rgb(17, 20, 38) !important;
+}
+.contact .wrapper .benefits .items .item .icon {
+    background-color: #ffffff17;
+}
+.contact .wrapper form .input_area .input_group input, .contact .wrapper form .input_area .input_group textarea {
+    background-color: #e9eef2;
+}
+.contact .wrapper form .input_area .input_group input:focus, .contact .wrapper form .input_area .input_group textarea:focus {
+    box-shadow: none;
+}
+.contact .wrapper form .button a {
+    background-color: #1a86eb;
+    transition: 0.4s;
+}
+.contact .wrapper form .button a:hover {
+    background-color: rgb(17, 20, 38);
+    color: white !important;
+}
+/* Contact CSS End */

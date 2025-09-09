@@ -1,0 +1,62 @@
+/* Contact CSS Start */
+.contact .contact_us {
+    padding: 160px 0;
+}
+.contact .contact_us h6 {
+    color: #1c8cf5;
+    font-size: 14px;
+}
+.contact .contact_us h2 {
+    color: rgb(13, 24, 37);
+    font-size: 38px;
+}
+.contact .contact_us p {
+    max-width: 360px;
+}
+.contact .contact_us form .input_group input, .contact .contact_us form .input_group textarea {
+    background-color: #e9eef2;
+}
+.contact .contact_us form .button button {
+    background-color: #1c8cf5;
+}
+.contact .google_map iframe {
+    width: 100%;
+    height: 796px;
+}
+/* Contact CSS End */
+
+
+/* Assistance CSS Start */
+.assistance {
+    background-color: #e9eef2;
+    padding: 80px 0;
+}
+.assistance .headline h6 {
+    color: #1a86eb;
+    font-size: 14px;
+}
+.assistance .headline h1 {
+    font-size: 36px;
+    color: rgb(17, 20, 38);
+}
+.assistance .headline p {
+    font-size: 18px;
+}
+.assistance .item h4 {
+    color: rgb(17, 20, 38);
+}
+.assistance .item .icon {
+    color: rgb(0, 153, 255);
+}
+@media screen and (max-width: 576px) {
+    .assistance {
+        padding: 50px 0;
+    }
+    .assistance .headline h1 {
+        font-size: 26px;
+    }
+    .assistance .headline p {
+        font-size: 16px;
+    }
+}
+/* Assistance CSS End */

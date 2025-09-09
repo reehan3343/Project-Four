@@ -1,0 +1,56 @@
+/* Header CSS Start */
+header {
+    background-color: #e9eef2;
+    padding: 100px 0;
+}
+header h1 {
+    font-size: 44px;
+    color: rgb(13, 24, 37);
+}
+header p {
+    max-width: 450px;
+}
+header h6 .text_dark {
+    color: rgb(13, 24, 37) !important;
+}
+@media screen and (max-width: 576px) {
+    header h1 {
+        font-size: 32px;
+    }
+}
+/* Header CSS End */
+
+
+/* Accordion Items CSS Start */
+.accordion_items {
+    padding: 70px 0;
+}
+.accordion_items .tabs a {
+    color: rgb(13, 24, 37);
+    font-size: 18px;
+    transition: 0.4s;
+}
+.accordion_items .tabs a:hover {
+    color: #1c8ffb;
+}
+.accordion_items .accordion_item_group h5 {
+    color: rgb(13, 24, 37);
+}
+.accordion_items .accordion_item_group .accordion_item {
+    background-color: #e9eef2;
+}
+.accordion_items .accordion_item_group .accordion_item .wrapper {
+    width: 100%;
+}
+@media screen and (max-width: 576px) {
+    .accordion_items {
+        padding: 50px 0px !important;
+    }
+    .accordion_items .accordion_item_group .accordion_item .wrapper {
+        padding: 20px !important;
+    }
+    .accordion_items .accordion_item_group .accordion_item .wrapper h6, .accordion_items .accordion_item_group .accordion_item p {
+        font-size: 14px;
+    }
+}
+/* Accordion Items CSS End */

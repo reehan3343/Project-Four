@@ -1,0 +1,231 @@
+/* Header CSS Start */
+header {
+    background-color: #e9eef2;
+    padding: 100px 0;
+}
+header h1 {
+    font-size: 44px;
+    color: rgb(13, 24, 37);
+}
+header p {
+    max-width: 450px;
+}
+header h6 .text_dark {
+    color: rgb(13, 24, 37) !important;
+}
+@media screen and (max-width: 576px) {
+    header h1 {
+        font-size: 32px;
+    }
+}
+/* Header CSS End */
+
+
+/* About Us CSS Start */
+.about {
+    padding: 110px 0;
+}
+.about .image {
+    background-color: #6d7888;
+}
+.about .image img {
+    transform: translate(50px, -50px);
+    width: 100%;
+}
+.about .texts h6 {
+    color: #1a86eb;
+    font-size: 14px;
+}
+.about .texts h1 {
+    color: rgb(17, 20, 38);
+}
+.about .texts p {
+    font-size: 18px;
+}
+.about .benefits .items .icon {
+    color: #1a86eb;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+}
+.about .accordion_items .accordion_item .wrapper {
+    background-color: #e9eef2;
+    width: 100%;
+    color: rgb(17, 20, 38);
+}
+@media screen and (max-width: 992px) {
+    .about {
+        padding: 30px 0;
+    }
+    .about .image {
+        background: none;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .about .image img {
+        transform: translate(0);
+    }
+}
+@media screen and (max-width: 576px) {
+    .about {
+        background-color: #e9eef2;
+        padding: 30px 0 30px;
+    }
+}
+/* About Us CSS End */
+
+
+/* Why Choose Us CSS Start */
+.wcu {
+    background-color: #e9eef2;
+    padding: 120px 0;
+}
+.wcu .image {
+    background-color: #6d7888;
+}
+.wcu .image img {
+    transform: translate(-40px, -40px);
+    width: 100%;
+}
+.wcu .texts h6 {
+    color: #1a86eb;
+    font-size: 14px;
+}
+.wcu .texts h1 {
+    color: rgb(17, 20, 38);
+}
+.wcu .texts p {
+    font-size: 18px;
+}
+.wcu .benefits .items .icon {
+    color: #1a86eb;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+}
+.wcu .button a {
+    background-color: #1a86eb;
+    transition: 0.4s;
+}
+.wcu .button a:hover {
+    background-color: rgb(17, 20, 38);
+}
+@media screen and (max-width: 992px) {
+    .wcu {
+        padding: 90px 0;
+    }
+    .wcu .image {
+        background: none;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .wcu .image img {
+        transform: translate(0);
+    }
+}
+@media screen and (max-width: 576px) {
+    .wcu {
+        background-color: #e9eef2;
+        padding: 90px 0 30px;
+    }
+}
+/* Why Choose Us CSS End */
+
+
+/* Our Team CSS Start */
+.team {
+    padding: 100px 0;
+}
+.team .headline h6 {
+    color: #1a86eb;
+    font-size: 14px;
+}
+.team .headline h1 {
+    color: rgb(13, 24, 37);
+    font-size: 38px;
+}
+.team .headline p {
+    max-width: 300px;
+}
+.team .item {
+    background-color: #e9eef2;
+}
+.team .item, .team .item .texts h5, .team .item .texts p {
+    transition: 0.4s;
+}
+.team .item:hover {
+    background-color: #041f39;
+}
+.team .item:hover .texts h5, .team .items:hover .texts p {
+    color: white !important;
+}
+.team .item .texts h5 {
+    color: rgb(13, 24, 37);
+}
+.team .item .socials {
+    list-style: none;
+}
+.team .item .socials li a {
+    width: 26px;
+    height: 26px;
+    font-size: 14px;
+    color: #1a86eb;
+    transition: 0.6s;
+}
+.team .item .socials li a:hover {
+    background-color: #1a86eb !important;
+    color: rgb(13, 24, 37);
+}
+@media screen and (max-width: 576px) {
+    .team {
+        padding: 40px 0;
+    }
+    .team .headline h1 {
+        font-size: 26px;
+    }
+    .team .headline p {
+        font-size: 14px;
+    }
+}
+/* Our Team CSS End */
+
+
+/* Join Our Team CSS Start */
+.jot {
+    background-color: #e9eef2;
+    padding: 100px 0;
+}
+.jot .texts h6 {
+    color: #1a86eb;
+    font-size: 14px;
+}
+.jot .texts h1 {
+    color: rgb(17, 20, 38);
+    font-size: 34px;
+}
+.jot .texts p {
+    font-size: 17px;
+    max-width: 300px;
+}
+.jot .button a {
+    background-color: #1a86eb;
+    transition: 0.4s;
+}
+.jot .button a:hover {
+    background-color: rgb(17, 20, 38);
+}
+.jot .items .item .texts p {
+    font-size: 14px;
+}
+.jot .items .item .icon a {
+    background-color: #e9eef2;
+    width: 56px;
+    height: 56px;
+    color: #1a86eb;
+    transition: 0.4s;
+}
+.jot .items .item:hover a {
+    background-color: #1a86eb;
+    color: white;
+}
+/* Join Our Team CSS End */

@@ -1,0 +1,127 @@
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+body {
+    font-style: "Roboto", serif;
+}
+
+
+/* Navigation Top CSS Start */
+.nav_top .nav_contact .item .texts .one, .nav_top .nav_contact .item .texts .one a {
+    font-size: 15px;
+    color: #222 !important;
+    transition: 0.4s;
+}
+.nav_top .nav_contact .item .icon, .nav_top .nav_contact .item .texts .one:hover, .nav_top .nav_contact .item .texts .one a:hover {
+    color: rgb(0, 158, 244) !important;
+}
+.nav_top .nav_contact .item .texts .two {
+    font-size: 14px;
+}
+/* Navigation Top CSS End */
+
+
+/* Navigation Main CSS Start */
+nav .nav_link {
+    font-size: 13px;
+    color: rgb(6, 6, 18);
+    transition: 0.4s;
+}
+nav .nav_link:hover {
+    background-color: rgb(226, 244, 255);
+    color: rgb(0, 153, 255) !important;
+}
+nav .navbar_toggler {
+    border: 0;
+}
+nav .navbar_toggler:focus {
+    box-shadow: none;
+}
+nav .buttons .one {
+    font-size: 14px;
+    color: rgb(6, 14, 18);
+    background-color: #e5eef2;
+    transition: 0.4s;
+}
+nav .buttons .one:hover, nav .buttons .two:hover {
+    background-color: rgb(13, 24, 37);
+    color: aliceblue !important;
+}
+nav .buttons .two {
+    font-size: 14px;
+    background-color: rgb(0, 158, 244);
+    transition: 0.4s;
+}
+@media screen and (max-width: 992px) {
+    nav .nav_link {
+        padding: 10px;
+    }
+    nav .nav_link:hover {
+        background-color: white;
+    }
+    nav .navbar-nav {
+        margin-top: 14px;
+        padding-top: 16px;
+        border-top: 1px solid #e1e1e1;
+    }
+}
+/* Navigation Main CSS End */
+
+
+/* Footer Top CSS Start */
+.footer_top .social {
+    list-style: none;
+}
+.footer_top .social li {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(234, 240, 244);
+    transition: 0.3s;
+}
+.footer_top .social li a {
+    transition: 0.3s;
+}
+.footer_top .social li:hover {
+    background-color: rgb(0, 153, 255);
+    transform: translateY(-4px);
+}
+.footer_top .social li:hover a {
+    color: white !important;
+}
+/* Footer Top CSS End */
+
+
+/* Footer Main CSS Start */
+footer {
+    padding: 90px 0;
+}
+footer .menu h5, footer .menu p a {
+    color: rgb(13, 24, 37);
+}
+footer .menu p a:hover {
+    background-color: rgb(226, 244, 255);
+    color: rgb(0, 153, 255);
+}
+@media screen and (max-width: 576px) {
+    footer {
+        padding: 60px 0;
+    }
+}
+/* Footer Main CSS End */
+
+
+/* Footer Bottom CSS Start */
+.footer_btm .buttons a {
+    color: rgb(13, 24, 37);
+    transition: 0.4s;
+}
+.footer_btm .buttons a:hover {
+    background-color: rgb(226, 244, 255);
+    color: rgb(0, 153, 255);
+}
+/* Footer Bottom CSS End */
+
+
